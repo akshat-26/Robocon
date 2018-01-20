@@ -1,0 +1,4 @@
+#Sat Jan 20 14:18:04 IST 2018
+base.0=/home/shasha/Downloads/Robocon/MyApplication/app/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex
