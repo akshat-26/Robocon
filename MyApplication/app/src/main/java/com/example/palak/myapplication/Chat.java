@@ -70,6 +70,7 @@ public class Chat extends AppCompatActivity implements Bluetooth.CommunicationCa
         Display("Connecting...");
         b.connectToDevice(b.getPairedDevices().get(pos));
 
+
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -83,10 +84,9 @@ public class Chat extends AppCompatActivity implements Bluetooth.CommunicationCa
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String a="a";
-               // int b1message =67;
+                // int b1message =67;
                // Display("67");
-                b.send(a);
+                b.send("a");
             }
         });
 
